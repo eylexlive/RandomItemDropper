@@ -1,0 +1,40 @@
+
+# Created by EylexLive
+# Discord: Umut Erarslan#8378
+# Please forward bugs you find via Discord.
+
+auto-dropper: # WARNING! Auto dropper is currently in beta.
+  enabled: false
+  minutes-remaining-broadcast-enabled: true
+  minutes-remaining-broadcast:
+    # 5 minutes before dropping.
+    '5':
+      message: '&8[&7Auto Dropper&8] &f%drop_size% items &awill randomly drop between
+        &f%location_1% &aand &f%location_2% &acoordinates at &f%minutes% minutes later.'
+    # 4 minutes before dropping.
+    '4':
+      message: '&8[&7Auto Dropper&8] &f%drop_size% items &awill randomly drop between
+        &f%location_1% &aand &f%location_2% &acoordinates at &f%minutes% minutes later.'
+    # 3 minutes before dropping.
+    '3':
+      message: '&8[&7Auto Dropper&8] &f%drop_size% items &awill randomly drop between
+        &f%location_1% &aand &f%location_2% &acoordinates at &f%minutes% minutes later.'
+    # 2 minutes before dropping.
+    '2':
+      message: '&8[&7Auto Dropper&8] &f%drop_size% items &awill randomly drop between
+        &f%location_1% &aand &f%location_2% &acoordinates at &f%minutes% minutes later.'
+    # 1 minutes before dropping.
+    '1':
+      message: '&8[&7Auto Dropper&8] &f%drop_size% items &awill randomly drop between
+        &f%location_1% &aand &f%location_2% &acoordinates at &f%minutes% minute later.'
+  # When it is 18:00
+  '18:00':
+    # Drop profile name created earlier.
+    drop-name: drop1
+    # How many items will it drop?
+    drop-size: 10
+    # Do you want to send a broadcast message?
+    broadcast-message-enabled: true
+    # Message
+    broadcast-message: '&8[&7Auto Dropper&8] &f%drop_size% items &arandomly dropped
+     between &f%location_1% &aand &f%location_2% &acoordinates!'
